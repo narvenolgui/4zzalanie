@@ -1,5 +1,4 @@
 <?php
-$info = 
 
 ?>
 <!DOCTYPE html>
@@ -91,6 +90,22 @@ $info =
         <div class="w3-container w3-card w3-white w3-margin-bottom">
           <h2 class="w3-text-grey w3-padding-16"><i
               class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Опыт работы</h2>
+             
+    
+        Официант январь 2019 - март 2020,
+        пробовала вкусняшки,
+    
+    
+        гурмэ,сентябрь 2020 - май 2021,
+         училась вкусам,
+    
+    
+        прогульщица,
+        фувраля 2022 - по нынешний момент
+        люблю прогуливаться
+    
+
+
           <?php for ($i=0; $i < count($info); $i++):?>
           <div class="w3-container">
             <h5 class="w3-opacity"><b><?php echo $info[$i]['work_name']?></b></h5>
